@@ -26,3 +26,7 @@ var Color2;
 })(Color2 || (Color2 = {}));
 var bgColor2 = Color2.blue;
 console.log(bgColor2);
+// Type Assrtions.
+var message = 'abc';
+var endWithC = message.endsWith('c');
+var endWithC2 = message.endsWith('c');
